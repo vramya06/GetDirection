@@ -1,0 +1,5 @@
+<apex:component >
+    <H1>
+        CampingList
+    </H1>
+</apex:component>

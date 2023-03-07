@@ -1,0 +1,16 @@
+<apex:page >
+<apex:form >
+<apex:pageBlock title="OISSS 150 FORM">
+<H1> FILL THE DETAIL BELOW </H1> <BR/> <BR/>
+FIRST NAME  :<apex:inputText title="first Name"/> <BR/>  <BR/>
+LAST NAME   :<apex:inputText title="second Name"/> <BR/>  <BR/>
+USERNAME    :<apex:inputText title=" Name"/> <BR/>  <BR/>
+PASSWORD    :<APEX:INputSecret title="PASSWORD"/> <BR/>  <BR/>
+COVERLETTER :<apex:inputTextarea title="text"/> <BR/>  <BR/>
+Are you citizen? :<apex:inputCheckbox title="citizen"/>  <BR/>  <BR/>
+<apex:pageBlockButtons >
+<apex:commandButton value="save"/>
+</apex:pageBlockButtons>
+</apex:pageBlock>
+</apex:form>  
+</apex:page>

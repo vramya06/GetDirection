@@ -1,0 +1,20 @@
+<apex:page standardController="case" >
+<apex:form >
+<apex:pageBlock title="My Case Block">
+  <apex:pageblockButtons >
+  <apex:commandButton value="save" action="{!save}"/>
+  
+  </apex:pageblockButtons>
+  <apex:pageblockSection title="my new case" columns="2" >
+  <apex:inputField value="{!case.CaseNumber}"/>
+    <apex:inputField value="{!case.Origin}"/>
+        <apex:inputField value="{!case.Reason}"/>
+    <apex:inputField value="{!case.IsClosedOnCreate}"/>
+
+
+  
+  </apex:pageblockSection>
+  
+</apex:pageBlock>
+</apex:form>
+  </apex:page>

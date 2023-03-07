@@ -1,0 +1,21 @@
+<apex:page controller="cc2" extensions="ext1,ext2" >
+   <apex:pageBlock TITLE="List of ACCOUNTS">
+   <apex:pageBlockTable value="{!ListAcc}" var="acc" >
+   <apex:column value="{!acc.id}"/>
+      <apex:column value="{!acc.name}"/>
+
+   </apex:pageBlockTable>
+   </apex:pageBlock>
+   <apex:pageBlock TITLE="List of OPPORTUNITY">
+   <apex:pageBlockTable value="{!ListOpp}" var="Opp" >
+   <apex:column value="{!Opp.id}"/>
+      <apex:column value="{!Opp.name}"/>
+
+   </apex:pageBlockTable>
+   </apex:pageBlock>
+   <p> {!ext1M1}</p>
+   <p> {!ext2M1}</p>
+   
+  
+  
+</apex:page>

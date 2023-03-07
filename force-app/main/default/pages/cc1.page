@@ -1,0 +1,5 @@
+<apex:page controller="cc1">
+My name : {!Method1}<br/>
+Result : {!Method2}
+  
+</apex:page>

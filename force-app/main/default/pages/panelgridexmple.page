@@ -1,0 +1,13 @@
+<apex:page >
+  <apex:panelGrid columns="3" border="2">
+  <apex:outputText value="one" id="fiest"></apex:outputText>
+  <apex:outputText value="two" id="sec"></apex:outputText>
+  <apex:outputText value="three" id="thu"></apex:outputText>
+  <apex:outputText value="four" id="for"></apex:outputText>
+  <apex:outputText value="five" id="fif"></apex:outputText>
+  <apex:outputText value="six" id="sixx"></apex:outputText>
+  <apex:outputText value="seven" id="sev"></apex:outputText>
+  <apex:outputText value="eight" id="eig"></apex:outputText>
+  <apex:outputText value="nine" id="ni"></apex:outputText>
+  </apex:panelGrid>
+</apex:page>

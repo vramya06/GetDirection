@@ -1,0 +1,29 @@
+<apex:page >
+<apex:form >
+   <apex:pageBlock title="vodnala's family">
+   <apex:pageBlockSection title="head of the family">
+   <apex:pageBlockSection >vodnala mallaiah</apex:pageBlockSection>
+   <apex:pageBlockSection >buchamma</apex:pageBlockSection>
+   <apex:pageBlockSection >sadanandam</apex:pageBlockSection>
+   <apex:pageBlockSection >padmasree</apex:pageBlockSection>
+   <apex:pageBlockSection >narender</apex:pageBlockSection>
+   <apex:pageBlockSection >manga</apex:pageBlockSection>
+   <apex:pageBlockSection >rajender kumar</apex:pageBlockSection>
+   <apex:pageBlockSection >sunitha</apex:pageBlockSection>
+   </apex:pageBlockSection>
+   <apex:pageBlockSection title="childern's">
+   <apex:pageBlockSection >vijay kumar</apex:pageBlockSection>
+   <apex:pageBlockSection >sravya</apex:pageBlockSection>
+   <apex:pageBlockSection >divya</apex:pageBlockSection>
+   <apex:pageBlockSection >pooja</apex:pageBlockSection>
+   <apex:pageBlockSection >ramya</apex:pageBlockSection>
+   <apex:pageBlockSection >aishwarya</apex:pageBlockSection>
+   <apex:pageBlockSection >shiva</apex:pageBlockSection>
+   <apex:pageBlockSection >sraya</apex:pageBlockSection>
+   </apex:pageBlockSection>
+   <apex:pageBlockButtons >
+   <apex:commandButton value="save"/>
+   </apex:pageBlockButtons>
+   </apex:pageBlock>
+   </apex:form>
+</apex:page>

@@ -1,0 +1,13 @@
+<template>
+    <div class="slds-m-around_medium">
+    <lightning-card title="GOOGLE MAPS">
+        <lightning-input label="Origin Address" type="text" onchange={handleOriginChange} value={originAddress}></lightning-input>
+        <lightning-input label="Destination Address" type="text" onchange={handleDestinationChange} value={destinationAddress}></lightning-input>
+        <lightning-button label="Get Directions" onclick={getDirections}></lightning-button>
+        
+            <p>Distance: {distance}</p>
+            <p>Travel Time: {travelTime}</p>
+            <p>Cost of Travel: {costOfTravel}</p>   
+    </lightning-card>
+    </div>
+</template>

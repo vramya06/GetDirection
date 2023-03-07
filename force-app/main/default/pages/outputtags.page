@@ -1,0 +1,21 @@
+<apex:page >
+  <apex:form >
+  <h1> FILL THE DETAILS BELOW:</H1><BR/> <BR/>
+  <apex:outputLabel value="Enter name:" for="name"></apex:outputLabel>
+  <apex:inputText id="name"/> <BR/> <BR/>
+  
+  <apex:outputLabel value=" Username:" for="username"></apex:outputLabel>
+  <apex:inputText id="username"/> <BR/> <BR/>
+  
+   
+  <apex:outputLabel value=" password:" for="secret"></apex:outputLabel>
+  <apex:inputSecret id="secret"/> <BR/> <BR/>
+  
+  <apex:outputLink value="https://mail.google.com/mail/u/0/#search/buntypawar392%40gmail.com/KtbxLwGrSLfFhccsxcGGLWZDjzdNwsztVV">salesforce</apex:outputLink>
+  
+  
+  
+  
+  
+  </apex:form>
+</apex:page>

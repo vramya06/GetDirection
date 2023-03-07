@@ -1,0 +1,10 @@
+<apex:page >
+  <apex:pageBlock title="Accounts Page">
+   <apex:pageBlockSection Title="Information" columns="3">
+   
+   <apex:outputField value="{! Account.name"/>
+   <apex:outputField value="{! Account.type"/>
+   <apex:outputField value="{! Account.phone"/>
+   </apex:pageBlockSection>
+  </apex:pageBlock>
+</apex:page>

@@ -1,0 +1,10 @@
+<apex:page standardController="opportunity" recordSetVar="opp">
+<apex:pageBlock >
+<apex:pageBlockTable value="{!opp}" var="o" >
+<apex:column value="{!o.name}"/>
+
+
+</apex:pageBlockTable>
+
+</apex:pageBlock>
+</apex:page>
